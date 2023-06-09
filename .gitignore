@@ -1,0 +1,9 @@
+.json
+.jpg
+.png
+.mp4
+.jpeg
+.webp
+node_modules
+package.json
+package-lock.json

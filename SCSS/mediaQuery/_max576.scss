@@ -1,0 +1,34 @@
+
+@media screen and (min-width: 377px) and (max-width: 576px) {
+
+    .video-container {
+
+        .titulo {
+            font-size: 50px;
+            margin-top: 90px;
+            margin-bottom: 50px;
+        }
+
+        #parrafoPortada {
+            font-size: 30px;
+        }
+
+        #miBoton {
+            border-width: 3px;
+            font-size: 20px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+    }
+
+    #titulo2,
+    #titulo3,
+    #titulo4,
+    #titulo5,
+    #titulo6,
+    #titulo7 {
+        font-size: 45px;
+        margin-top: 30px;
+    }
+}

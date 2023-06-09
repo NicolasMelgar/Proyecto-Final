@@ -1,0 +1,29 @@
+
+@media screen and  (max-width: 376px) {
+
+    .video-container .titulo{
+        @include maxQuery(40px, 80px, 40px);
+        // font-size: 40px;
+        // margin-top: 80px;
+        // margin-bottom: 40px;
+    }
+    
+    .video-container #parrafoPortada{
+        font-size: 20px;
+    }
+
+    
+    .video-container #miBoton{
+        border-width: 3px;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7{
+        font-size: 35px;
+        margin-top: 25px;
+    }
+}
+

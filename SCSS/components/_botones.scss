@@ -1,0 +1,37 @@
+
+
+#miBoton{
+    background-color: $color-fondo-btn;
+    border-width: 3px;
+    border-color: $color-boton;
+    padding: 5px 15px 5px 15px;
+    border-radius: 16px;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: $color-blanco;
+
+    &:hover{
+        background-color: $color-boton;
+        color: $color-fondo-btn-hover;
+    }
+}
+
+//el extend me trae las propiedades del botón y luego le modifico abajo lo que quiero
+.miBotonChico {
+    @extend #miBoton;
+    border-width: 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: $color-boton;
+    font-size: 1.3rem;
+
+    &:hover {
+        background-color: $color-boton;
+        color: $color-fondo-btn-hover;
+    }
+
+}
+
+

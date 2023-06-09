@@ -1,0 +1,28 @@
+/*---::: SECCION SOBRE MI :::---*/
+.fondo-oscuro{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+
+    .sobre-Img{
+    border-radius: 20px;
+    margin: 5px;
+    max-height: 450px;
+    min-height: 300px;
+    width: auto;
+    transition: all 2s;
+    }
+
+}
+
+
+.fondo-gris{
+    background-color: rgba(172, 170, 170, 0.5);
+    text-align: center;
+
+    .list-group-item a:hover{
+    background-color: $color-boton;
+    color: $color-fondo-btn-hover;
+    }
+}
+

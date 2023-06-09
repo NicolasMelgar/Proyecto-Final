@@ -1,0 +1,30 @@
+//sass --watch SCSS/estilo.scss CSS/estilo.css
+
+//variables empiezan con $
+$color-principal: white;
+$fondo-oscuro: black; 
+$fondo-gris: grey;
+
+@import "./base/mixin"; /*este tiene que estar antes porque reset lo usa*/
+@import "./base/reset"; 
+@import "./base/variables";
+
+
+
+@import "./efectos/hover";
+
+@import "./layout/portada";
+@import "./efectos/efectoportada";
+@import "./components/botones";
+@import "./layout/herramientas";
+@import "./layout/sobreMi";
+@import "./layout/proyectos";
+@import "./layout/contacto";
+@import "./layout/footer";
+
+@import "./mediaQuery/max376";
+@import "./mediaQuery/max576";
+@import "./mediaQuery/max768";
+@import "./mediaQuery/max1199";
+
+

@@ -1,0 +1,22 @@
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+
+    .video-container {
+
+        .titulo {
+            font-size: 90px;
+            margin-top: 60px;
+        }
+
+        #parrafoPortada {
+            font-size: 39px;
+        }
+
+        #miBoton {
+            border-width: 3px;
+            font-size: 30px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+    }
+}

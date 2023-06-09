@@ -1,0 +1,136 @@
+*{
+    @include zeroMarginPadding;
+    // margin: 0;
+    // padding: 0;
+    box-sizing: border-box;
+}
+
+#titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7{
+    font-size: 65px;
+    margin-top: 10px;
+}
+
+.margenParaScroll{
+    scroll-margin-top: 8vh !important;
+}
+
+html{
+    scroll-behavior: smooth !important;
+}
+
+/*
+revisión de responsive Pagina Principal ---FALTA---
+
+@extend en componente botones   Hecho
+@mixin 
+hacer fondo transparente al icono de BTS
+
+320px correcta (Ajustar N M) Hecho
+375px correcta (Ajustar N M) Hecho
+425px correcta (Ajustar N M) Hecho
+768px correcto                              pero se descompaginan un poco las barras de nivel (FALTA)
+1024px correcto                             pero se descompaginan un poco las barras de nivel (FALTA)
+
+----------------------------------------------------------------
+
+revisión de responsive Pagina BOOTSTRAP I  ---TERMINADA---
+
+Ver si quiero dejar el checkbox de recordarme al final 
+
+320px Revisar
+    HECHO - pero pierdo el menú de navegación (ver NAV) 
+    HECHO - el carrusel de la portada parece quedar mal centrado 
+    HECHO - el título es demasiado grande
+    CIERTO - PERO FUNCIONAN - NO LAS TOCO las imágenes de bts html y css son grandes
+    HECEHO el último cuadro de texto está diferente al resto
+
+375px Revisar (HECHO)
+    Idem anterior
+
+425px Revisar (HECHO - ERA UN TEMA DEL BODY Y LAS SECTION)
+    Incluso los márgenes del formulario parecen no exsistir
+    Idem anterior
+
+
+768px Revisar 
+    HECHO - Ver formulario
+    HECHO - Ver menú hamburguesa
+    HECHO - ver contenedores de texto 
+
+1024px Revisar 
+    HECHO - Ver título 
+    HECHO - Ver contenedores texto 
+    HECHO - Ver formulario
+
+1440px Correcto
+
+-------------------------------------------------------------
+
+revisión de responsive Pagina BOOTSTRAP II   ---TERMINADA????  ---
+
+320px TODO MAL TIENE       ---------------HECHO------------------
+375px TODO MAL TIENE       ---------------HECHO------------------
+425px TODO MAL TIENE       ---------------HECHO------------------
+
+768 Revisar portada y nuestro equipo        ---------------HECHO------------------
+
+1024 VER      ---------------HECHO------------------
+
+1440 VER     ---------------HECHO------------------
+
+--------------------------------------------------------------
+
+revisión de responsive en Página HTML y CSS   ---TERMINADA---
+
+---------------------
+sección inicio 
+
+320px Correcto
+375px Correcto
+425px Correcto
+768px Correcto
+1024px Correcto
+1440px Correcto
+
+----------------------
+sección Portafolio  (Arreglar que en esta sección no se visualiza el logo)    ---TERMINADA---
+
+320px Correcto
+375px Correcto
+425px Correcto
+768px Correcto
+1024px Correcto
+1440px Correcto
+
+-----------------------
+sección Sobre Mi (Arreglar que en esta sección no se visualiza el logo)     ---TERMINADA--- 
+
+320px Correcto
+375px Correcto
+425px Correcto
+768px Correcto
+1024px Correcto
+1440px Correcto
+
+----------------------
+sección Herramientas (Arreglar que en esta sección no se visualiza el logo)        ----TERMINADA------
+
+320px Correcto (Arreglar el título que está dentro de las imágenes)
+375px Correcto (Arreglar el título que está dentro de las imágenes)
+425px Correcto (Arreglar el título que está dentro de las imágenes)
+768px Correcto
+1024px Correcto
+1440px Correcto
+
+-----------------------
+sección Contacto (Arreglar que en esta sección no se visualiza el logo)     ----TERMINADA------
+
+320px Correcto (Ajustar el text area para que el botón quede bien)
+375px Correcto (Ajustar el text area para que el botón quede bien)
+425px Correcto (Ajustar el text area para que el botón quede bien)
+768px Correcto (Ajustar el text area para que el botón quede bien)
+1024px Correcto (Ajustar el text area para que el botón quede bien)
+1440px Correcto (Ajustar el text area para que el botón quede bien)
+
+
+*/

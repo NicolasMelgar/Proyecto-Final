@@ -1,0 +1,30 @@
+/* el @extend está en components - botones*/
+
+/*revisar si para usar el mixin tengo que importarlo o si tiene que estar escrito en el mismo lugar como extends*/
+
+/* podría hacer un mixin con las caracteristicas generales de las animaciones --- ver hover ---*/
+
+
+/*Layout Portada)*/
+
+@mixin flex-columna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Layout Portada + Base reset)*/
+@mixin zeroMarginPadding{
+    margin: 0;
+    padding: 0;
+}
+
+/* --- ESTO LO IMPLEMENTÉ EN LA MEDIA QUERY :  _max376.scss---*/
+/* Mixins con propiedades para mediaquerys*/
+
+@mixin maxQuery($tamaño, $mTop, $mBottom){
+        font-size: $tamaño;
+        margin-top: $mTop;
+        margin-bottom: $mBottom;
+}

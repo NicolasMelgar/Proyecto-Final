@@ -1,0 +1,320 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/*:::---SECCION PORTADA---:::*/
+/* .portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+} */
+
+/* #Inicio{
+    margin: 0;
+    padding: 0;
+}
+
+.video-container {
+    position: relative;
+    justify-content: center;
+    min-height: 95vh;
+    width: 100vw;
+    text-align: center;
+    overflow: hidden;  esto saca lo que sobra del video
+} */
+/*Esto se debe poder hacer en una sola cascada con sass*/
+/* .video-container video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    min-width: 450px;
+    height: 95%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.video-container .titulo{
+    font-size: 140px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 60px;
+} */
+
+/* .video-container #parrafoPortada{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+} */
+
+/*Puedo armar una variable con este y el miBotonChico y reducir código*/
+/* .video-container #miBoton{
+    background-color:rgba(128,128,128,.4);
+    border-width: 3px;
+    border-color: rgb(71, 7, 7);
+    padding: 5px 15px 5px 15px;
+    border-radius: 16px;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+#miBoton:hover{
+    background-color: rgb(71, 7, 7);
+    color: bisque;
+} */
+
+
+/*---:::ESTO HACE EL EFECTO FLUOR (Extraido del youtube de CoderHouse:::---*/
+/* span{
+    transition: all 2s ease-out;
+}
+
+h1:hover span:nth-child(1){
+    margin-right: 40px;
+}
+h1:hover span:nth-child(1)::after{
+    content: "icolás"; 
+    transition: .5s linear; 
+}
+
+h1:hover span:nth-child(2){
+    margin-left: 20px;
+}
+
+h1:hover span:nth-child(2)::after{
+    content: "elgar";
+    transition: all .5s linear;
+}
+
+h1:hover span{
+ 
+    text-shadow: 1px 0 10px rgba(246, 246, 246, 0.99),    sombra horizontal sombra vertical blur color
+    3px 0 30px rgba(49, 49, 226, 0.99),
+    0 15px 50px rgba(209, 50, 50, 0.99);
+} */
+
+/*-------------------------*/
+
+/* .miBotonChico{
+    background-color:rgba(128,128,128,.4);
+    border-width: 2px;
+    border-color: rgb(71, 7, 7);
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(71, 7, 7);
+    font-size: 1.3rem;
+} */
+
+/* Puedo aunar los hover si quiero 
+.miBotonChico:hover{
+    background-color: rgb(71, 7, 7);
+    color: bisque;
+} */
+
+/* .linkPortada{
+    text-align: center;
+    justify-content:   center ;
+    justify-items: center;
+    margin: auto;
+} */
+
+
+/*---::: SECCION DE SKILLS:::---*/
+/* #retrato{
+    border-radius: 50%;
+}
+
+.skill{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.skill-Img{
+    border-radius: 20px;
+    margin-top: 45px;
+    width: auto; 
+    height:150px ;
+}
+ */
+
+/*---::: SECCION SOBRE MI :::---*/
+/* .fondo-oscuro{
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+}
+
+
+.fondo-gris{
+    background-color: rgba(172, 170, 170, 0.5);
+    text-align: center;
+}
+
+.sobre-Img{
+    border-radius: 20px;
+    margin: 5px;
+    max-height: 450px;
+    min-height: 300px;
+    width: auto;
+}
+
+.fondo-gris .list-group-item a:hover{
+    background-color: rgb(71, 7, 7);
+    color: bisque;
+} */
+
+
+/*---::: SECCIÓN DE PROYECTOS ---:::*/
+/* .proyectos-cont{
+    text-align: center;
+    height: auto;
+    background-image: url(../IMG/ciudad-fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;  Prallax
+    color: white;
+    padding: 25px;
+} */
+
+/* #parr2 {
+    color: rgb(200, 125, 13);
+} */
+
+/* .fondo-div {
+    border-radius: 20px;
+    box-shadow: 8px 8px 5px rgb(200, 166, 166);
+    background-color: rgba(94, 86, 86, 0.3);       eje x eje y blur color
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+} */
+
+/*Cambiar a una clase si estoy seguro que sobreescribe BTS*/
+/* #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7{
+    font-size: 65px;
+    margin-top: 50px;
+} */
+
+
+/*---::: SECCIÓN DE CONTACTO:::---*/
+.contacto-form{
+    text-align: center;
+    justify-content: center;
+}
+
+
+/*---::: SECCIÖN FOOTER :::---*/
+/* #Footer{
+    text-align: center;
+} */
+
+
+/*---::: RESPONSIVE :::---*/
+/* 
+@media screen and  (max-width: 376px) {
+
+    .video-container .titulo{
+        font-size: 40px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    
+    .video-container #parrafoPortada{
+        font-size: 20px;
+    }
+    
+    .video-container #miBoton{
+        border-width: 3px;
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7{
+        font-size: 35px;
+        margin-top: 25px;
+    }
+}
+ */
+
+/* 
+@media screen and  (min-width: 377px) and  (max-width: 576px) {
+
+    .video-container .titulo{
+        font-size: 50px;
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+    
+    .video-container #parrafoPortada{
+        font-size: 30px;
+    }
+    
+    .video-container #miBoton{
+        border-width: 3px;
+        font-size: 20px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+} */
+/* 
+@media screen and  (min-width: 577px) and (max-width: 768px) {
+
+    .video-container .titulo{
+        font-size: 70px;
+        margin-top: 90px;
+    }
+    
+    .video-container #parrafoPortada{
+        font-size: 30px;
+    }
+    
+    .video-container #miBoton{
+        border-width: 3px;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    #titulo2, #titulo3, #titulo4, #titulo5, #titulo6, #titulo7{
+        font-size: 55px;
+        margin-top: 30px;
+    }
+} */
+/* 
+@media screen and (min-width: 769px) and (max-width: 1199px) {
+
+    .video-container .titulo {
+        font-size: 90px;
+        margin-top: 60px;
+    }
+
+    .video-container #parrafoPortada {
+        font-size: 39px;
+    }
+
+    .video-container #miBoton {
+        border-width: 3px;
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+} */
