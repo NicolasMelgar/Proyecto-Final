@@ -11,6 +11,9 @@
 
     <title>N/M Diseño y Desarrollo Web</title>
 
+    <!-- Link a Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <!-- Link a Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -73,7 +76,7 @@
             <!-- IMPORTANTÍSIMO - poster="" me deja poner una IMG que se verá hasta tanto cargue el video poster="IMG/ciudad-fondo.jpg"-->
             <!-- <video id="video-portada" src="IMG/video4.mp4" autoplay loop muted poster="IMG/teatro.jpg" >               </video> -->
             <h1 class="titulo col-12"> <span>N</span><span>M</span></h1>
-            <p id="parrafoPortada" class=" col-12m-1 mx-auto">
+            <p id="parrafoPortada" class=" col-12m-1 mx-auto  animate__animated animate__bounce  animate__slow">
                 Diseño y desarrollo web dedicado a profesionales, emprendedores, pequeñas y medianas
                 empresas. Los recursos y herramientas más actualizados a tu disposición.
             </p>
@@ -90,7 +93,7 @@
         <div class="container-fluid fondo-oscuro ">
             <div class="row d-flex align-items-center">
                 <div class="col-md-4">
-                    <img class="img-fluid mx-auto mt-0 my-0 d-block text-center sobre-Img" src="IMG/selfie2sf.png"
+                    <img id="selfie" class="img-fluid mx-auto mt-0 my-0 d-block text-center sobre-Img" src="IMG/selfie2sf.png"
                         alt="Dibujo de NM">
                 </div>
                 <div class="col-md-4">
@@ -123,9 +126,9 @@
         <div class="container-fluid fondo-gris ">
             <div class="row d-flex align-items-center">
                 <div class="col-md-7">
-                    <h2 class="text-center">El retro tiene sentido</h2>
+                    <h2 class="text-center  animate__animated animate__slideInUp animate__slower">El retro tiene sentido</h2>
                     <br>
-                    <p class="text-center lead">Hace poco más de cincuenta años la tecnología era una cinta magnética en
+                    <p class="text-center lead  animate__animated animate__slideInLeft animate__slower">Hace poco más de cincuenta años la tecnología era una cinta magnética en
                         forma de cassette. Luego llegaron los CD's que dieron rápidamente inicio a la era de los DVD's.
                         En
                         paralelo, la computadora llegaba a la vida de las personas. En un principio, el hardware era más
@@ -153,7 +156,7 @@
                     <img class="img-fluid mx-auto d-block text-center sobre-Img" src="IMG/A.jpg" alt="Espiral">
                 </div>
                 <div class="col-md-7 ">
-                    <h2 class="text-center">Por qué desarrollo web</h2>
+                    <h2 class="text-center animate__animated animate__slideInUp animate__slower">Por qué desarrollo web</h2>
                     <br>
                     <p class="text-center lead">Siempre he sentido una enorme curiosidad por saber cómo funcionan las
                         cosas.
@@ -175,10 +178,10 @@
             </div>
         </div>
 
-        <div class="container-fluid fondo-gris">
+        <div class="container-fluid fondo-gris animate__animated animate__slideInUp animate__slower">
             <div class="row d-flex align-items-center">
                 <div class="col-md-7">
-                    <h2 class="text-center">Planes a futuro</h2>
+                    <h2 class="text-center ">Planes a futuro</h2>
                     <p class="text-center lead">Tengo varios sitios que sigo a diario para aprender:
                     </p>
                     <ul class="list-group col-4 mx-auto mb-2" style="width: auto; max-width: 70%;">
@@ -205,7 +208,6 @@
         </div>
     </section>
 
-    
     <!-- SECCION HABILIDADES -->
     <section id="Habilidades" class="m-5 margenParaScroll" >
         <div class="container-fluid skill">
@@ -313,7 +315,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- SECCION PROYECTOS -->
     <section id="Proyectos" class="margenParaScroll">

@@ -51,14 +51,22 @@
 }
 
 //no olvidarse de agregar la transition al elemento en sí
-.sobre-Img:hover {
-    animation-name: acercar3D;
-    animation-duration: 10s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    cursor: pointer;
-}
-
+// .sobre-Img:hover {
+//     #selfie:hover {
+//         animation-name: acercar3D;
+//         animation-duration: 10s;
+//         animation-iteration-count: 1;
+//         animation-timing-function: ease-in;
+//         cursor: pointer;
+//     }
+// }
+#selfie:hover {
+            animation-name: acercar3D;
+            animation-duration: 10s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in;
+            cursor: pointer;
+        }
 // .sobre-Img:hover::after {
 //     animation-name: acercar3D;
 //     animation-duration: 2s;

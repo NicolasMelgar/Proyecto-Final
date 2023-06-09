@@ -206,7 +206,7 @@ sección Contacto (Arreglar que en esta sección no se visualiza el logo)     --
     transform: scale3d(1.8, 1.8, 3);
   }
 }
-.sobre-Img:hover {
+#selfie:hover {
   animation-name: acercar3D;
   animation-duration: 10s;
   animation-iteration-count: 1;
