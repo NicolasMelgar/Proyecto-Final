@@ -51,26 +51,20 @@
 }
 
 //no olvidarse de agregar la transition al elemento en sí
-// .sobre-Img:hover {
-//     #selfie:hover {
-//         animation-name: acercar3D;
-//         animation-duration: 10s;
-//         animation-iteration-count: 1;
-//         animation-timing-function: ease-in;
-//         cursor: pointer;
-//     }
-// }
+
 #selfie:hover {
-            animation-name: acercar3D;
-            animation-duration: 10s;
-            animation-iteration-count: 1;
-            animation-timing-function: ease-in;
-            cursor: pointer;
-        }
-// .sobre-Img:hover::after {
-//     animation-name: acercar3D;
-//     animation-duration: 2s;
-//     animation-iteration-count: 1;
-//     animation-timing-function: ease-in;
-//     cursor: pointer;
+    animation-name: acercar3D;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+}
+
+// #Proyectos {
+//     .img-fluid {
+//         animation-name: rotarY;
+//         animation-duration: 4s;
+//         animation-iteration-count: 3;
+//         animation-timing-function: ease-in;
+//     }
 // }
