@@ -1,5 +1,27 @@
 
 //Esto es todo una prueba sobre animaciones. 
+
+@keyframes acercar3D {
+    0% {
+        transform: scale3d(1.0, 1.0, 1.0);
+    }
+
+    100% {
+        transform: scale3d(1.8, 1.8, 3.0);
+    }
+}
+
+#selfie:hover {
+    animation-name: acercar3D;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+}
+
+
+
+/*
 @keyframes rotarY {
     0% {         transform: rotateY(20deg);    }
     // 20% {    //     transform: rotateY(100deg);    // }
@@ -27,38 +49,30 @@
     100% {        transform: rotateZ(360deg); }       
 }
 
-@keyframes acercar {
-    0% {transform: scale(1.1);}
-    100% {transform: scale(1.8);}       
-}
+// @keyframes acercar {
+//     0% {transform: scale(1.1);}
+//     100% {transform: scale(1.8);}       
+// }
 
-@keyframes acercarX {
-    0% {transform: scaleX(1.1);}
-    100% {transform: scaleX(1.8);}       
-}
+// @keyframes acercarX {
+//     0% {transform: scaleX(1.1);}
+//     100% {transform: scaleX(1.8);}       
+// }
 
-@keyframes acercarY {
-    0% {transform: scaleY(1.1);}
-    100% {transform: scaleY(1.8);}       
-}
+// @keyframes acercarY {
+//     0% {transform: scaleY(1.1);}
+//     100% {transform: scaleY(1.8);}       
+// }
 
-@keyframes acercarZ {
-    0% {transform: scaleZ(1);}
-    100% {transform: scaleZ(3);}      
-}
+// @keyframes acercarZ {
+//     0% {transform: scaleZ(1);}
+//     100% {transform: scaleZ(3);}      
+// }
 
-@keyframes acercar3D {
-    0% {transform: scale3d(1.0, 1.0, 1.0);}
-    100% {transform: scale3d(1.8, 1.8, 3.0);}      
-}
+//
 
+
+*/
 //no olvidarse de agregar la transition al elemento en sí
 
-#selfie:hover {
-    animation-name: acercar3D;
-    animation-duration: 10s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    cursor: pointer;
-}
 
