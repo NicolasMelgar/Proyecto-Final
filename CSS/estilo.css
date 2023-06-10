@@ -226,7 +226,8 @@ sección Contacto (Arreglar que en esta sección no se visualiza el logo)     --
   padding: 0;
   background-image: url(../IMG/teatro3.jpg);
   background-size: cover;
-  background-attachment: fixed; /*Prallax*/
+  background-attachment: fixed;
+  /*Prallax*/
 }
 
 .video-container {
@@ -237,8 +238,6 @@ sección Contacto (Arreglar que en esta sección no se visualiza el logo)     --
   text-align: center;
   overflow: hidden;
 }
-
-/*Esto se debe poder hacer en una sola cascada con sass*/
 .video-container video {
   position: absolute;
   left: 0;
@@ -249,14 +248,12 @@ sección Contacto (Arreglar que en esta sección no se visualiza el logo)     --
   object-fit: cover;
   z-index: -1;
 }
-
 .video-container .titulo {
   font-size: 140px;
   color: aliceblue;
   text-align: center;
   margin-top: 60px;
 }
-
 .video-container #parrafoPortada {
   font-size: 45px;
   color: white;
