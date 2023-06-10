@@ -445,8 +445,9 @@
                 <h2>¿Hablamos?</h2>
                 <p>Envíame tu mensaje y responderé a la brevedad.</p>
 
-                <form action="form.php" method="post">
+                <!-- <form action="form.php" method="post"> -->
 
+                <form action="https://formsubmit.co/nicolasmelgarparadizo@gmail.com" method="post">
                     <div class="form-group">
                         <label for="nombre">nombre</label>
                         <input type="text" name="nombre" class="form-control m-3" id="nombre" placeholder="Ingresa tu nombre">
@@ -465,6 +466,9 @@
                     </div>
 
                     <button type="submit" class="btn miBotonChico btn-lg m-3">Enviar</button>
+                    
+                    <input type="hidden" name="_next" value=" http://127.0.0.1:5500/">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </div>
             <!-- </div> -->
