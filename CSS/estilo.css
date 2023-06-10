@@ -360,6 +360,10 @@ h1:hover span {
   color: bisque;
 }
 
+.progress-bar-striped {
+  height: 40px;
+}
+
 .proyectos-cont {
   text-align: center;
   height: auto;
@@ -476,6 +480,17 @@ h1:hover span {
     margin-bottom: 20px;
     font-weight: 700;
   }
+}
+#Terminos-Condiciones {
+  background-color: bisque;
+  text-align: center;
+  padding: 20px;
+}
+
+#MensajeExito {
+  background-color: rgb(162, 244, 162);
+  text-align: center;
+  margin-top: 200px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
