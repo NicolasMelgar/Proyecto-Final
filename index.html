@@ -439,21 +439,21 @@
                 <h2>¿Hablamos?</h2>
                 <p>Envíame tu mensaje y responderé a la brevedad.</p>
 
-                <form action="index.html" method="post">
+                <form action="form.php" method="POST">
 
                     <div class="form-group">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" class="form-control m-3" id="nombre" placeholder="Ingresa tu nombre">
+                        <label for="nombre">nombre</label>
+                        <input type="text" name="nombre" class="form-control m-3" id="nombre" placeholder="Ingresa tu nombre">
                     </div>
 
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control m-3" id="email" placeholder="Ingresa tu nombre">
+                        <input type="email" name="email" class="form-control m-3" id="email" placeholder="Ingresa tu nombre">
                     </div>
 
                     <div class="form-group">
                         <label class="m-1" for="floatingTextarea2">Mensaje</label>
-                        <textarea class="form-control m-3" placeholder="Deje su mensaje aquí" id="floatingTextarea2"
+                        <textarea class="form-control m-3" name="mensaje" placeholder="Deje su mensaje aquí" id="floatingTextarea2"
                             style="height: 100px">
                     </textarea>
                     </div>
