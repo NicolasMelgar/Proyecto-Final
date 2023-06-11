@@ -147,7 +147,7 @@ sección Contacto (Arreglar que en esta sección no se visualiza el logo)     --
     transform: scale3d(1, 1, 1);
   }
   100% {
-    transform: scale3d(1.8, 1.8, 3);
+    transform: scale3d(1.5, 1.5, 2);
   }
 }
 #selfie:hover {
@@ -156,6 +156,7 @@ sección Contacto (Arreglar que en esta sección no se visualiza el logo)     --
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   cursor: pointer;
+  transform: translateX(60px);
 }
 
 /*
@@ -358,6 +359,20 @@ h1:hover span {
 .fondo-gris .list-group-item a:hover {
   background-color: rgb(71, 7, 7);
   color: bisque;
+}
+
+#selfie {
+  height: auto;
+  width: auto;
+  min-height: 50vh;
+  background-image: url(../../IMG/selfie2sf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transition: all 2s ease-in-out;
+}
+#selfie:hover {
+  background-image: url(../../IMG/LentesSF.png);
 }
 
 .proyectos-cont {
