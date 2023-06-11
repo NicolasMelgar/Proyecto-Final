@@ -365,14 +365,14 @@ h1:hover span {
   height: auto;
   width: auto;
   min-height: 50vh;
-  background-image: url(.IMGselfie2sf.png);
+  background-image: url(../IMG/selfie2sf.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
   transition: all 2s ease-in-out;
 }
 #selfie:hover {
-  background-image: url(..IMGLentesSF.png);
+  background-image: url(IMG/LentesSF.png);
 }
 
 .proyectos-cont {
