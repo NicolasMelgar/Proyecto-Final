@@ -26,7 +26,7 @@
     }
 }
 
-#selfie{
+#selfie {
     height: auto;
     width: auto;
     min-height: 50vh;
@@ -36,15 +36,10 @@
     background-position: 50%;
 
     transition: all 2s ease-in-out;
-    
-    &:hover{
-        height: auto;
-        width: auto;
-        min-height: 50vh;
-        background-image: url(../IMG/LentesSF.png); 
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: 50%;
-        
+
+    &:hover {
+        @extend #selfie;
+        background-image: url(../IMG/LentesSF.png);
+
     }
 }

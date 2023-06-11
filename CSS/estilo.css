@@ -361,7 +361,7 @@ h1:hover span {
   color: bisque;
 }
 
-#selfie {
+#selfie, #selfie:hover {
   height: auto;
   width: auto;
   min-height: 50vh;
@@ -372,13 +372,7 @@ h1:hover span {
   transition: all 2s ease-in-out;
 }
 #selfie:hover {
-  height: auto;
-  width: auto;
-  min-height: 50vh;
   background-image: url(../IMG/LentesSF.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: 50%;
 }
 
 .proyectos-cont {
