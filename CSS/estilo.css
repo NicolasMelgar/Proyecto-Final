@@ -373,6 +373,7 @@ h1:hover span {
 }
 #selfie:hover {
   background-image: url(../IMG/LentesSF.png);
+  background-position: 70%;
 }
 
 .proyectos-cont {
